@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .btn {
+      background-color: rgb(163, 201, 61);
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: rgb(65, 225, 150);
+    }
+    </style>
+  <body>
+   <center>
+    <br />
+    <button class="btn"> Step 1: ACCOUNT DETAIL</button>
+    <a href="./page2.html"><button class="btn">Step 2: PERSONAL DETAIL</button></a>
+    <a href="./page3.html"><button class="btn">Step 3: YOUR REVIEW</button></a>
+    <fieldset style="width: 600px; height: 300;">
+        <legend style="text-align: center;">ACCOUNT</legend>
+        <br>
+            <form>         
+           <label for="email" style="font-weight: bold;">Email:</label>
+            <input type="email" id="email" name="email"placeholder="Enter Email Address" required><br><br><br>
+          
+           <label for="Password" style="font-weight: bold;">Password:</label> <br>
+           <input type="password" class="custom-input" placeholder="Enter Your Password" required> <br><br><br>
+           <label for="Confirm Password" style="font-weight: bold;">Confirm Password:</label> <br>
+           <input type="password" class="custom-input" placeholder="Enter Your Password" required> <br><br>
+              <br><br>
+             <a href="./index.html"class="previous">Back</a>
+             <a href="./page2.html"class="Next">Next</a>
+            </form>
+    </fieldset>
+</center>
+  </body>
+</html>

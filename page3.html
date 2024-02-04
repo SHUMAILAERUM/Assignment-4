@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .btn {
+      background-color: rgb(28, 169, 204);
+      border: none;
+      color: rgb(46, 16, 16);
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: rgb(21, 146, 184);
+    }
+    </style>
+  <body>
+    <center>
+        <br />
+        <a href="./page1.html"><button class="btn">Step 1: ACCOUNT DETAILS</button></button></a>
+        <a href="./page2.html"><button class="btn">Step 2: PERSONAL DETAIL</button></a>
+        <a href="./page3.html"><button class="btn">Step 3: YOUR REVIEW</button></a>
+        <fieldset style="width: 600px; height: 300;">
+            <legend style="text-align: center;">Your Review</legend><br>
+                <form>
+                    <lebel for="hear-about">How did you hear about it?</lebel>
+                    <select name="Select option" required>
+                        <option value="Select Option" selected="selected">Select Option</option>
+                        <option value="facebook">facebook</option>
+                        <option value="whats app">whats app/option>
+                        <option value="Insta">Insta</option>
+                    </select><br><br>
+                   <label for="option"><b> You like to visit again?</b></label><br><br>
+                   <label for="Yes">Yes</label><input type="radio"id="Yes"name="Yes">
+                   <label for="No">No</label> <input type="radio"id="No"name="No">
+                   <lebel for="May be">May be</lebel> <input type="radio"id="May be"name="May be">
+                   <br>
+                   <b>Comment</b>
+                   <br>
+                   <textarea id="comments" rows="5" cols="20" placeholder="Write your comment here" style="width: 246px; height: 73px;"></textarea>
+                  <br><br>
+                   <input type="file" id="fileinput"name="file"/>
+                   <br><br>
+                   <input type="checkbox" name="for signing up" checked>Sign me up for Email
+                   <br><br>
+                 <a href="./page2.html"class="previous">Back</a>
+                 <a href="./index.html"class="Next">Home Page</a>
+                </form>
+        </fieldset>
+    </center>
+  </body>
+</html>

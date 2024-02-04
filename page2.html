@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .btn {
+      background-color: rgb(55, 114, 173);
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: rgb(14, 34, 90);
+    }
+    </style>
+  <body>
+    <center>
+        <br>
+        <a href="./page1.html"><button class="btn">Step 1: ACCOUNT DETAILS</button></button></a>
+        <a href="./page2.html"><button class="btn">Step 2: PERSONAL DETAIL</button></a>
+        <a href="./page3.html"><button class="btn">Step 3: YOUR REVIEW</button></a>
+
+        <fieldset style="width: 600px; height: 300;">
+            <legend style="text-align: center;">PERSONAL DETAIL</legend>
+            <br>
+            <label for="Firt Name" style="font-weight: bold;">Firt Name:</label>
+            <input type="text" class="custom-input" placeholder="Enter Firt Name" required="">
+                <br><br><br>
+            <label for="Last Name" style="font-weight: bold;">Last Name:</label>
+            <input type="text" class="custom-input" placeholder="Enter Last Name" required="">
+                <br><br><br>
+            <label for="cnic" style="font-weight: bold;">CNIC:</label>
+              <input type="cnic number" maxlength="13" class="custom-input" placeholder="Enter CNIC here"required><br><br><br>
+            <label for ="link"style="font-weight: bold;">Social link</label>
+              <input type="url" name="link" id="Link" placeholder="Enter your facebook/linkin"><br><br>
+                 <a href="./page1.html"class="previous">Back</a>
+                 <a href="./page3.html"class="Next">Next</a>
+        </fieldset>
+    </center>
+  </body>
+</html>
